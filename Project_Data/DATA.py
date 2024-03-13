@@ -34,3 +34,11 @@ base_url = "https://portal-dev.safsarglobal.link/"
 ##click_edit_tab:
     my_account_btn = my.driver.find_element(By.CSS_SELECTOR, "sm:flex border border-white rounded-full hidden text-primaryLight hover:text-primaryPurple font-bold px-8 py-2")    personal_details = my.driver.find_element(By.CSS_SELECTOR, "ant-tabs-tab-btn")
     edit_profile = my.driver.find_element(By.CSS_SELECTOR, "font-bold text-primaryPurple px-4 py-2 underline underline-offset-2")
+
+
+
+###test-
+###click edit phone
+edit_phone_btn = my.driver.find_element(By.CSS_SELECTOR, "font-bold text-primaryPurple px-4 py-2 underline underline-offset-2")
+user_phone_filed = my.driver.find_element(By.ID,"phone")
+save_phone_btn = my.driver.find_element(By.CSS_SELECTOR, "w-[130px] bg-primaryPurple text-white font-bold p-2 rounded-full font-bold text-systemLight px-4 py-2 mt-2")
