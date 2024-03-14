@@ -5,8 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 
-
-def test_login_proccess():
+def login_proccess():
     my_driver = driver_set()
     my_driver.get("https://portal-dev.safsarglobal.link/")
     login_header_element = WebDriverWait(my_driver, 10).until(EC.presence_of_element_located((By.LINK_TEXT, "התחברות")))
