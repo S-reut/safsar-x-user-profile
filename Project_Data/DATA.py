@@ -1,4 +1,5 @@
 base_url = "https://portal-dev.safsarglobal.link/"
+login_btn_xpath = "//button[contains(text(),'כניסה')]"
 ###test-1.1.1
 #####edit_first_name:
     first_name_1 = 'נועה'
