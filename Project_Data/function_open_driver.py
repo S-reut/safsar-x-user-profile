@@ -10,4 +10,3 @@ def driver_set():
     chrome_service = Service(ChromeDriverManager().install())
     my_driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
     return my_driver
-
