@@ -1,7 +1,9 @@
 from function_open_driver import driver_set
 base_url = "https://portal-dev.safsarglobal.link/"
 login_btn_xpath = "//button[contains(text(),'כניסה')]"
-reut_phone='0502587365'
+
+koren_phone = '0544803749'
+reut_phone = '0502587365'
 ###test-1.1.1
 #####edit_first_name:
     first_name_1 = 'נועה'
